@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#To_Do{
+	margin-top: 10%;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+
+.inputs{
+
+
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	color: black;;
+	font-size: 20px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	background-image: none;
+	border: none;
+	border-bottom: 2px solid black;
+	
+  } 
+  .form-control:focus{
+	  border: 0px;
+  }
